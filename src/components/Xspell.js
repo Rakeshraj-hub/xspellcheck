@@ -39,7 +39,7 @@ function Xspell(){
             />
             {
                 currWord && (
-                    <p>Did you mean <strong>{currWord}</strong>?</p>
+                    <p>Did you mean: <strong>{currWord}</strong>?</p>
                 )
             }
         </div>
